@@ -22,7 +22,7 @@ const Product = ({product}) => {
                     <Typography variant="body1" gutterBottom>
                         {product.name}
                     </Typography>
-                    <Typography variant="body1">
+                    <Typography variant="h5" >
                         <Star/>
                         {product.score}
                     </Typography>
